@@ -8,8 +8,8 @@ function setup() {
   movingRect = createSprite(400,800,80,30);
   movingRect.shapeColor = "green";
   movingRect.debug = true;
-  movingRect.velocityY=+5
-  fixedRect.velocityY=-5
+  movingRect.velocityY=-5
+  fixedRect.velocityY=+5
 }
 
 function draw() {
